@@ -1,0 +1,7 @@
+Sample result: boat ROCA, word barrel, litres 240.
+
+n = 988027
+e = 65537
+boat = 86874
+word = 452946
+litres = 626309
