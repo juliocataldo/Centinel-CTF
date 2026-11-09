@@ -1,0 +1,14 @@
+# Large forensics artifacts (sha256 in writeups)
+*.E01
+*.raw
+*.dd
+*.pcapng
+*.sqlite
+*.reg
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VPN configs
+*.conf

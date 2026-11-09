@@ -1,0 +1,9 @@
+# Nmap 7.991 scan initiated Thu Nov  5 15:15:56 2026 as: nmap -sS -p- -T4 --max-retries 6 -Pn -n -oN nmap-32-full.txt 10.10.10.32
+Nmap scan report for 10.10.10.32
+Host is up (0.15s latency).
+Not shown: 65533 closed tcp ports (reset)
+PORT     STATE SERVICE
+2222/tcp open  EtherNetIP-1
+8070/tcp open  ucs-isc
+
+# Nmap done at Thu Nov  5 15:21:31 2026 -- 1 IP address (1 host up) scanned in 335.61 seconds

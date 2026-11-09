@@ -1,0 +1,11 @@
+Posted secret: 90211
+Modulus: 10007
+Threshold: 3
+
+Desk shares, as x, y:
+2, 1809
+5, 2457
+7, 3079
+
+Extra point, not a desk share:
+1, 1792

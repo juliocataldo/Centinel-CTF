@@ -1,0 +1,10 @@
+# Nmap 7.991 scan initiated Thu Nov  5 17:09:18 2026 as: nmap -sS -p- --min-rate 3000 --max-retries 3 -Pn -n -oN nmap-40-fast.txt 10.10.10.40
+Warning: 10.10.10.40 giving up on port because retransmission cap hit (3).
+Nmap scan report for 10.10.10.40
+Host is up (0.15s latency).
+Not shown: 65533 closed tcp ports (reset)
+PORT     STATE SERVICE
+2222/tcp open  EtherNetIP-1
+7443/tcp open  oracleas-https
+
+# Nmap done at Thu Nov  5 17:09:45 2026 -- 1 IP address (1 host up) scanned in 26.68 seconds

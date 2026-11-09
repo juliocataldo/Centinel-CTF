@@ -1,0 +1,11 @@
+# Nmap 7.991 scan initiated Thu Nov  5 12:11:46 2026 as: nmap -p- --min-rate 2000 -T4 -oN harbor-all.txt 10.10.10.11
+Warning: 10.10.10.11 giving up on port because retransmission cap hit (6).
+Nmap scan report for 10.10.10.11
+Host is up (0.15s latency).
+Not shown: 65532 closed tcp ports (conn-refused)
+PORT      STATE    SERVICE
+22/tcp    open     ssh
+80/tcp    open     http
+47780/tcp filtered unknown
+
+# Nmap done at Thu Nov  5 12:12:28 2026 -- 1 IP address (1 host up) scanned in 42.29 seconds

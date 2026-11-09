@@ -1,0 +1,9 @@
+# Nmap 7.991 scan initiated Thu Nov  5 15:13:08 2026 as: nmap -sS -p- -T4 --max-retries 6 -Pn -n -oN nmap-30-full.txt 10.10.10.30
+Nmap scan report for 10.10.10.30
+Host is up (0.15s latency).
+Not shown: 65533 closed tcp ports (reset)
+PORT      STATE SERVICE
+8083/tcp  open  us-srv
+22022/tcp open  unknown
+
+# Nmap done at Thu Nov  5 15:18:32 2026 -- 1 IP address (1 host up) scanned in 324.29 seconds

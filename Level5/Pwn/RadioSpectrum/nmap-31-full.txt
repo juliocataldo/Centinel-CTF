@@ -1,0 +1,9 @@
+# Nmap 7.991 scan initiated Thu Nov  5 15:13:22 2026 as: nmap -sS -p- -T4 --max-retries 6 -Pn -n -oN nmap-31-full.txt 10.10.10.31
+Nmap scan report for 10.10.10.31
+Host is up (0.15s latency).
+Not shown: 65533 closed tcp ports (reset)
+PORT     STATE SERVICE
+2022/tcp open  down
+8800/tcp open  sunwebadmin
+
+# Nmap done at Thu Nov  5 15:18:55 2026 -- 1 IP address (1 host up) scanned in 332.63 seconds

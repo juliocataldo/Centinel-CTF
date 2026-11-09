@@ -1,0 +1,16 @@
+# Nmap 7.991 scan initiated Thu Nov  5 14:41:28 2026 as: nmap -sC -sV -p 22,8085 -Pn -n -oN nmap-24-svc.txt 10.10.10.24
+Nmap scan report for 10.10.10.24
+Host is up (0.15s latency).
+
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 9.2p1 Debian 2+deb12u10 (protocol 2.0)
+| ssh-hostkey: 
+|   256 af:3d:7b:b7:93:80:aa:55:05:d4:bb:f6:22:48:fe:dc (ECDSA)
+|_  256 5b:70:5b:73:26:5a:20:8d:5f:48:f0:b3:57:a8:ff:b5 (ED25519)
+8085/tcp open  http    BaseHTTPServer 0.6 (Python 3.11.2)
+|_http-title: Embassy gate
+|_http-server-header: BaseHTTP/0.6 Python/3.11.2
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Nov  5 14:41:39 2026 -- 1 IP address (1 host up) scanned in 11.50 seconds

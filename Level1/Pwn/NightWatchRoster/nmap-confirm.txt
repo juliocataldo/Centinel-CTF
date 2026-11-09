@@ -1,0 +1,1 @@
+# Nmap 7.991 scan initiated Thu Nov  5 12:03:47 2026 as: nmap -p- -T3 --max-retries 3 -oN nmap-confirm.txt 10.10.10.10

@@ -1,0 +1,33 @@
+# Nmap 7.991 scan initiated Thu Nov  5 15:31:08 2026 as: nmap -sC -sV -p 2022,8800 -Pn -n -oN nmap-31-svc.txt 10.10.10.31
+Nmap scan report for 10.10.10.31
+Host is up (0.15s latency).
+
+PORT     STATE SERVICE      VERSION
+2022/tcp open  ssh          OpenSSH 9.2p1 Debian 2+deb12u10 (protocol 2.0)
+| ssh-hostkey: 
+|   256 af:3d:7b:b7:93:80:aa:55:05:d4:bb:f6:22:48:fe:dc (ECDSA)
+|_  256 5b:70:5b:73:26:5a:20:8d:5f:48:f0:b3:57:a8:ff:b5 (ED25519)
+8800/tcp open  sunwebadmin?
+| fingerprint-strings: 
+|   NULL: 
+|     spectrum desk
+|     AUTH <name> longer than 12 characters prints the left 8 hex digits of the seed
+|     AUTH <name>? a name ending in ? prints the right 8 hex digits of the seed
+|     token sha256(seed + channel) as hex, first 16 digits
+|     live channel ops
+|     GETLOG <channel> <token>
+|_    HELP repeats this.
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port8800-TCP:V=7.991%I=7%D=11/5%Time=6AECCB72%P=x86_64-pc-linux-gnu%r(N
+SF:ULL,12D,"spectrum\x20desk\nAUTH\x20<name>\x20\x20\x20\x20\x20longer\x20
+SF:than\x2012\x20characters\x20prints\x20the\x20left\x208\x20hex\x20digits
+SF:\x20of\x20the\x20seed\nAUTH\x20<name>\?\x20\x20\x20\x20a\x20name\x20end
+SF:ing\x20in\x20\?\x20prints\x20the\x20right\x208\x20hex\x20digits\x20of\x
+SF:20the\x20seed\ntoken\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20sha256\
+SF:(seed\x20\+\x20channel\)\x20as\x20hex,\x20first\x2016\x20digits\nlive\x
+SF:20channel\x20\x20\x20\x20ops\nGETLOG\x20<channel>\x20<token>\nHELP\x20r
+SF:epeats\x20this\.\n");
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Nov  5 15:31:19 2026 -- 1 IP address (1 host up) scanned in 11.35 seconds

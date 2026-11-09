@@ -1,0 +1,6 @@
+Posted log: 240183
+p = 97767475431570134191
+g = 7
+h = 28690494907310954915
+peer = 6709581214550667291
+Every prime factor of p - 1 is at most 53.

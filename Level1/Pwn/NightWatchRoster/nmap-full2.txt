@@ -1,0 +1,1 @@
+# Nmap 7.991 scan initiated Thu Nov  5 12:39:51 2026 as: nmap -p- -T4 --max-retries 3 -oN nmap-full2.txt 10.10.10.10

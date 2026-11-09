@@ -1,0 +1,9 @@
+# Nmap 7.991 scan initiated Thu Nov  5 16:08:21 2026 as: nmap -p- --min-rate 2000 -T4 -Pn -oN nmap-33-full.txt 10.10.10.33
+Nmap scan report for 10.10.10.33
+Host is up (0.15s latency).
+Not shown: 65533 closed tcp ports (reset)
+PORT     STATE SERVICE
+2200/tcp open  ici
+3128/tcp open  squid-http
+
+# Nmap done at Thu Nov  5 16:09:00 2026 -- 1 IP address (1 host up) scanned in 38.18 seconds
